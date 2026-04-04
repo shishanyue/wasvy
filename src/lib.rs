@@ -37,6 +37,7 @@ mod bindings {
         with: {
             "wasvy:ecs/app.app": crate::host::WasmApp,
             "wasvy:ecs/app.system": crate::host::WasmSystem,
+            "wasvy:ecs/app.system-set": crate::host::WasmSystemSet,
             "wasvy:ecs/app.commands": crate::host::WasmCommands,
             "wasvy:ecs/app.entity": crate::host::WasmEntity,
             "wasvy:ecs/app.entity-commands": crate::host::WasmEntityCommands,

@@ -59,6 +59,10 @@ interface app {
 		before: func(other: borrow<system>);
 	}
 
+	resource system-set{
+		constructor(name: string);
+	}
+
 	/// A `command` queue system param to perform structural changes to the world.
 	///
 	/// Since each command requires exclusive access to the world,

@@ -17,6 +17,7 @@ mod entity_commands;
 mod query;
 mod query_result;
 mod system;
+mod system_set;
 
 pub use app::*;
 pub use commands::*;
@@ -26,6 +27,7 @@ pub use entity_commands::*;
 pub use query::*;
 pub use query_result::*;
 pub use system::*;
+pub use system_set::*;
 
 /// Host state shared across mod executions.
 ///
